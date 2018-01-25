@@ -1,6 +1,6 @@
-# Basic Reason Template
+BuckleScript bindings to [Folktale](http://folktale.origamitower.com/)
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+Status: [folktale/concurrency/task](http://folktale.origamitower.com/api/v2.1.0/en/folktale.concurrency.task.html) is mostly complete, other modules are missing.
 
 # Build
 ```
