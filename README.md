@@ -1,4 +1,4 @@
-BuckleScript bindings to [Folktale](http://folktale.origamitower.com/)
+BuckleScript bindings to [Folktale](http://folktale.origamitower.com/).
 
 Status: [folktale/concurrency/task](http://folktale.origamitower.com/api/v2.1.0/en/folktale.concurrency.task.html) is mostly complete, other modules are missing.
 

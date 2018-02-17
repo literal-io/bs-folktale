@@ -15,9 +15,9 @@
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "^2.1.0",
-    "folktale": "^2.1.0-rc1"
+    "folktale": "^2.2.0-alpha1"
   },
   "peerDependencies": {
-    "folktale": "^2.1.0-rc1"
+    "folktale": "^2.2.0-alpha1"
   }
 }
