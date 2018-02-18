@@ -9,7 +9,7 @@ module Executor = {
 module Resolver = {
   type t('value, 'error);
   [@bs.send.pipe : t('value, 'error)]
-  external onCleanup : (unit => unit) => unit = "";
+  external onCleanup : (unit => unit) => unit = "cleanup";
   [@bs.send.pipe : t('value, 'error)]
   external onCancelled : (unit => unit) => unit = "";
   [@bs.send.pipe : t('value, 'error)] external resolve : 'value => unit = "";
