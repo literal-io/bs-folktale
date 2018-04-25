@@ -22,6 +22,9 @@ module Resolver = {
 external rejected : 'error => t('value, 'error) = "";
 
 [@bs.val] [@bs.module "folktale/concurrency/task"]
+external of_ : 'value => t('value, 'error) = "of";
+
+[@bs.val] [@bs.module "folktale/concurrency/task"]
 external make : (Resolver.t('value, 'error) => unit) => t('value, 'error) =
   "task";
 
