@@ -33,3 +33,6 @@ external make : (Resolver.t('value, 'error) => unit) => t('value, 'error) =
 [@bs.send.pipe : t('value, 'error)]
 external chain : ('value => t('newValue, 'newError)) => t('newValue, 'newError) =
   "";
+
+[@bs.send.pipe : t('value, 'error)]
+external and_ : t('value, 'error) => t(array('value), 'error) = "and";
