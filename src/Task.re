@@ -15,7 +15,7 @@ module Resolver = {
   [@bs.send.pipe : t('value, 'error)] external resolve : 'value => unit = "";
   [@bs.send.pipe : t('value, 'error)] external reject : 'error => unit = "";
   [@bs.send] external cancel : t('value, 'error) => unit = "";
-  [@bs.get] external isCancelled : t('value, 'error) => Js.boolean = "";
+  [@bs.get] external isCancelled : t('value, 'error) => bool = "";
 };
 
 [@bs.val] [@bs.module "folktale/concurrency/task"]

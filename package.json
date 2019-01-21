@@ -1,7 +1,7 @@
 {
   "name": "bs-folktale",
   "description": "BuckleScript bindings to Folktale",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
@@ -14,10 +14,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^2.1.0",
-    "folktale": "^2.2.0-alpha1"
+    "bs-platform": "^4.0.18",
+    "folktale": "^2.3.1"
   },
   "peerDependencies": {
-    "folktale": "^2.2.0-alpha1"
+    "folktale": "^2.3.1"
   }
 }
